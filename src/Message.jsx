@@ -1,9 +1,13 @@
-function Message(){
-    return (
-        <div>
-        <h1> From Message.jsx</h1>
-        <p> hello </p>
-        </div>
-);
+function Message() {
+  return (
+    <div>
+      <Message />
+      <ul>
+        <li>React.js</li>
+        <li>Angular</li>
+        <li>Vue.js</li>
+      </ul>
+    </div>
+  );
 }
-export {Message};
+export default LinkStyle;
