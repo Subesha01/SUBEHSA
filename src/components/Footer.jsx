@@ -5,7 +5,7 @@ const Footer = () => {
     <div>
       <hr></hr>
       <bottom>
-        <h2>123@gmail.com</h2>
+        <h2>copyrights@2023</h2>
       </bottom>
       <hr></hr>
     </div>
