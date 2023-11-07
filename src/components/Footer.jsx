@@ -5,9 +5,8 @@ const Footer = () => {
     <div>
       <hr></hr>
       <bottom>
-        <h2>copyrights@2023</h2>
+        <h2 style={{ backgroundColor: "green" }}>copyrights@2023</h2>
       </bottom>
-      <hr></hr>
     </div>
   );
 };
