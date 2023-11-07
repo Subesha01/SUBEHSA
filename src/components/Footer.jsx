@@ -4,7 +4,9 @@ const Footer = () => {
   return (
     <div>
       <hr></hr>
-      <h2>123@gmail.com</h2>
+      <bottom>
+        <h2>123@gmail.com</h2>
+      </bottom>
       <hr></hr>
     </div>
   );
