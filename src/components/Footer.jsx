@@ -3,7 +3,9 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <p>copyright@2023</p>
+      <hr></hr>
+      <h2>123@gmail.com</h2>
+      <hr></hr>
     </div>
   );
 };
