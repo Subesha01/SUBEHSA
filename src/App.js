@@ -1,8 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
-import NavBar from "./components/NavBar";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import NavBar from "./day2/NavBar";
+import Main from "./day2/Main";
+import Footer from "./day2/Footer";
 function App() {
   return (
     <div>
