@@ -52,7 +52,7 @@ function App() {
     import InlineStyle from "./day2/InlineStyle";
     function App() {
       return (
-        <div className="flex space-x-4 my-4">
+       <div className="flex space-x-4 my-4">
         <InlineStyle />
         </div>
         );
