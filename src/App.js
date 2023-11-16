@@ -15,6 +15,7 @@ function App() {
     }
     
     export default App;*/
+
 /*import Counter from "./day3/Counter";
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
   }
   
   export default App;*/
-  /*import { useState } from "react";
+
+  import { useState } from "react";
   import Cart from "./day3/CoffeeShop/Cart";
   import Menu from "./day3/CoffeeShop/Menu";
   import Navbar from "./day3/CoffeeShop/Navbar";
@@ -47,9 +49,9 @@ function App() {
       </div>
       );
     }
-    export default App;*/
+    export default App;
     
-    import InlineStyle from "./day2/InlineStyle";
+    /*import InlineStyle from "./day2/InlineStyle";
     function App() {
       return (
        <div className="flex space-x-4 my-4">
@@ -58,4 +60,4 @@ function App() {
         );
       }
       
-      export default App;
+      export default App;*/
