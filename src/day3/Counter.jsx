@@ -9,36 +9,36 @@ const Counter = () => {
         Run: {count} &emsp; Wicket: {count1}
       </p>
       <button
-        className="px-4 py-4 bg-red-500"
+        style={{ backgroundColor: "pink", borderSpacing: 300 }}
         onClick={() => setCount(count + 1)}
       >
         1 RUN
       </button>
       <button
-        className="px-4 py-4 bg-red-500"
+        style={{ backgroundColor: "pink" }}
         onClick={() => setCount(count + 2)}
       >
         2 RUN
       </button>
       <button
-        className="px-4 py-4 bg-red-500"
+        style={{ backgroundColor: "pink" }}
         onClick={() => setCount(count + 4)}
       >
         4 RUN
       </button>
       <button
-        className="px-4 py-4 bg-red-500"
+        style={{ backgroundColor: "pink" }}
         onClick={() => setCount(count + 6)}
       >
         6 RUN
       </button>
       <button
-        className="px-4 py-4 bg-red-500"
+        style={{ backgroundColor: "lightblue" }}
         onClick={() => setCounts(count1 + 1)}
       >
         Wicket
       </button>
-      <button className="px-4 py-2 bg-red-500" onClick={() => setCount(0)}>
+      <button style={{ backgroundColor: "red" }} onClick={() => setCount(0)}>
         Reset
       </button>
     </div>
