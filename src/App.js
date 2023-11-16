@@ -27,7 +27,7 @@ function App() {
   
   export default App;*/
 
-  import { useState } from "react";
+ /* import { useState } from "react";
   import Cart from "./day3/CoffeeShop/Cart";
   import Menu from "./day3/CoffeeShop/Menu";
   import Navbar from "./day3/CoffeeShop/Navbar";
@@ -49,7 +49,7 @@ function App() {
       </div>
       );
     }
-    export default App;
+    export default App;*/
     
     /*import InlineStyle from "./day2/InlineStyle";
     function App() {
@@ -61,3 +61,14 @@ function App() {
       }
       
       export default App;*/
+
+    import HelloWorld from "./day2/HelloWorld";
+    function App() {
+      return (
+       <div>
+        <HelloWorld />
+        </div>
+        );
+      }
+      
+      export default App;
