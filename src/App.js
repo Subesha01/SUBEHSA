@@ -62,7 +62,7 @@ function App() {
       
       export default App;*/
 
-    import HelloWorld from "./day2/HelloWorld";
+    /*import HelloWorld from "./day2/HelloWorld";
     function App() {
       return (
        <div>
@@ -71,4 +71,40 @@ function App() {
         );
       }
       
-      export default App;
+      export default App;*/
+
+    /*import Menu from "./Components/Menu";
+    function App() {
+      return (
+       <div>
+        <Menu />
+        
+        </div>
+        );
+      }
+      
+      export default App;*/
+
+   /*import React from 'react';
+import GokuTransformation from "./day3/GokuTransformation";
+function App() {
+  return (
+    <div>
+      <GokuTransformation />
+    </div>
+  );
+}
+
+export default App;*/
+
+import React from 'react';
+import ToggleMessage from "./day3/ToggleMessage";
+function App() {
+  return (
+    <div>
+      <h1>Toggle Message Example</h1>
+      <ToggleMessage />
+    </div>
+  );
+}
+export default App;
