@@ -73,7 +73,7 @@ function App() {
       
       export default App;*/
 
-    /*import Menu from "./Components/Menu";
+  /* import Menu from "./Components/Menu";
     function App() {
       return (
        <div>
@@ -121,7 +121,7 @@ function App() {
 }
 export default App;*/
 
-import React from 'react';
+/*import React from 'react';
 import MaterialButton from './day4/LoginButton';
 function App() {
   return (
@@ -131,4 +131,31 @@ function App() {
     </div>
   );
 }
+export default App;*/
+
+/*import React from 'react'
+import Navbar from "./Components/Navbar"
+function App() {
+  return (
+    <div>
+      <Navbar></Navbar>
+    </div>
+  )
+}
+
+export default App*/
+
+import React from 'react';
+import BForm from "./day2/BForm";
+
+
+const App = () => {
+  return (
+    <div>
+      <h1>Your App Title</h1>
+      <BForm></BForm>
+    </div>
+  );
+};
+
 export default App;
