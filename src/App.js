@@ -97,13 +97,25 @@ function App() {
 
 export default App;*/
 
-import React from 'react';
+/*import React from 'react';
 import ToggleMessage from "./day3/ToggleMessage";
 function App() {
   return (
     <div>
       <h1>Toggle Message Example</h1>
       <ToggleMessage />
+    </div>
+  );
+}
+export default App;*/
+
+import React from 'react';
+import FruitSurvey from "./day4/FruitSurvey";
+function App() {
+  return (
+    <div>
+      <h1>Student Greeting Form</h1>
+      <FruitSurvey />
     </div>
   );
 }
